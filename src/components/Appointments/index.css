@@ -1,0 +1,114 @@
+.bg-container {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  min-height: 600px;
+  padding: 50px;
+}
+.appointments-container {
+  font-family: 'roboto';
+  background-color: white;
+  display: flex;
+  border-radius: 15px;
+
+  min-width: 750px;
+  min-height: 200px;
+}
+.heading {
+  font-size: 25px;
+}
+.add-input-data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.form-text {
+  font-size: 12px;
+  color: #b5b7c4;
+  padding-top: 10px;
+}
+.input-text {
+  font-size: 12px;
+  color: black;
+  width: 200px;
+  height: 30px;
+}
+.add-button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  background-color: #8b5cf6;
+}
+.line {
+  color: #b5b7c4;
+  width: 700px;
+}
+.image-app {
+  width: 350px;
+  height: 200px;
+}
+.appointments-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 0px;
+
+  margin: 0px;
+}
+.appointment-stared-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+}
+.starred-btn {
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  border-color: #8b5cf6;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 15px;
+  margin-right: 10px;
+  color: #8b5cf6;
+  background-color: white;
+}
+.starred-btn-purple {
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  border-color: #8b5cf6;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 15px;
+  margin-right: 10px;
+  color: white;
+  background-color: #8b5cf6;
+}
+.appointment-Details-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 15px;
+}
+
+.heading-2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 40px;
+}

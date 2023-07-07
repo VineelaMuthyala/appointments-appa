@@ -1,0 +1,38 @@
+.each-list-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'roboto';
+  min-width: 200px;
+  height: 75px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-left: 10px;
+
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.title-star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.heading-item {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.button-star {
+  border: none;
+  background-color: transparent;
+}
+.star-icon {
+  width: 20px;
+  height: 20px;
+}
+.para-date {
+  font-size: 12px;
+}
